@@ -1,0 +1,104 @@
+body {
+    background-image:url(DSC09251.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:top;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: whitesmoke;
+    margin: auto;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
+    font-style: italic;
+    font-size: 80px;
+    font-weight: lighter;
+    background-color: black;
+    color: whitesmoke;
+}
+
+p {
+    width: 1800px;
+    height: 440px;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    border-color: rgb(128, 128, 128);
+    box-shadow: inset;
+    position: relative;
+    top: 300px;
+    background-color: black;
+}
+
+nav {
+    width: 800px;
+    height: 130px;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    border-style: outset;
+    position: relative;
+    left: 28%;
+    top: 200px;
+}
+
+
+div.streetart{
+    position: relative;
+    top: 32em;
+    padding-left: 4%;
+}
+.streetart{
+    width: 550px;
+    height: 400px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.streetart{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 0.7rem;
+}
+
+.streetart figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.streetart figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.scruton {
+    width: 600px;
+    height: 130px;
+    margin: auto;
+    background-color: black;
+}
+
+.scruton2 {
+    width: 1200px;
+    height: 800px;
+}
+
+.scruton2 {
+    margin: auto;
+    position: relative;
+    top: 60%;
+}
